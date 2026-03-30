@@ -1,0 +1,6 @@
+a=raw_input("Enter tuple1").split(',')
+tup1=tuple(a)
+b=raw_input("Enter tuple2").split(',')
+tup2=tuple(b)
+tup3=tup1+tup2
+print "Added tuple is ",tup3
