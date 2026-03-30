@@ -1,0 +1,8 @@
+tup1=('python',2,3,'hello',5,7)
+n=raw_input("Enter value:")
+for i in tup1:
+   if i==n:
+      print "Yes it exist"
+      break
+else:
+   print "No not exist"
