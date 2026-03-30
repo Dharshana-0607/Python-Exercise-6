@@ -1,0 +1,5 @@
+a=raw_input("Enter tuple:").split(',')
+tup=tuple(a)
+n=int(input("Starting index "))
+m=int(input("Ending index "))
+print "After slicing:",tup[n:m]
