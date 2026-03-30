@@ -1,0 +1,8 @@
+tuple1=[10,20,30,10,20,40,30]
+untup=[]
+for i in tuple1:
+   if i not in untup:
+      untup.append(i)
+unique=()
+unique=tuple(untup)
+print unique
